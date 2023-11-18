@@ -25,10 +25,10 @@ EXYNOS_VIDEO_CODEC := \
 ifeq ($(BOARD_USE_ALP_AUDIO), true)
     ifeq ($(BOARD_USE_SEIREN_AUDIO), true)
     EXYNOS_AUDIO_CODEC += \
-        hardware/samsung_slsi-linaro/exynos/libseiren
+        hardware/samsung_slsi-linaro_13-e850-96/exynos/libseiren
     else
     EXYNOS_AUDIO_CODEC += \
-        hardware/samsung_slsi-linaro/exynos/libsrp
+        hardware/samsung_slsi-linaro_13-e850-96/exynos/libsrp
     endif
 endif
 
